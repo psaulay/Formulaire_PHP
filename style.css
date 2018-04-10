@@ -1,0 +1,47 @@
+body {
+    background-image: url(background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+   /* border: 5px solid lightgreen;*/
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+p {
+    color: red;
+}
+
+#message {
+    height: 150px;
+}
+
+input {
+    margin: auto;
+    background-color: white;
+}
+
+#submit {
+    background-color: #4CAF50;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: lightgreen;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 5px;
+}
