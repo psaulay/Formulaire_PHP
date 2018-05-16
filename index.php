@@ -7,7 +7,7 @@ if(isset($_POST['valider'])){
     $objet=$_POST['objet'];
     $msg= 'Vous avez reçu un message de la part de '.$id.'     message: '.$_POST['message'];
     $message=$_POST['message'];
-    $to= 'psaulay@gmail.com';
+    $to= '***********';
     $error= false;
 
     // Check email input 
